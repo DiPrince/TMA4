@@ -1,0 +1,13 @@
+$_POST['Member ID'];
+
+$_POST['First name'];
+
+$_POST['Family name'];
+
+$_POST['Email'];
+
+$_POST['Phone'];
+
+Insert into Players database (Member ID, First name, Family name, Email, Phone) values
+
+('$_POST[Member ID]', '$_POST[First name] '$_POST[Family name]' $_POST[Email]' $_POST[Phone]')

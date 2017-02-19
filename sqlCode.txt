@@ -1,0 +1,35 @@
+$sql = 'select * from players database';
+
+$result = mysql_query($sql, $connection);
+
+echo "<table>";
+
+while ( $row = mysql_fetch_array($result) )
+
+{
+
+echo "<tr><td>";
+
+echo $row['Member ID'];
+
+echo "</td><td>";
+
+echo $row['First name'];
+
+echo "</td></tr>";
+
+echo $row['Family name']
+
+echo "</td><td>";
+
+echo $row['Email'];
+
+echo "</td><td>";
+
+echo $row['Phone'];
+
+echo "</td><td>";
+
+}
+
+echo "</table>";

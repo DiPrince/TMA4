@@ -1,0 +1,13 @@
+$_POST['Schedule'];
+
+$_POST['Venue'];
+
+$_POST['Days Available'];
+
+$_POST['Days Not Available'];
+
+$_POST['Phone'];
+
+Insert into Players database (Schedule, Venue, Days Available, Days Not Available, Phone) values
+
+('$_POST[Schedule]', '$_POST[Venue] '$_POST[Days Available]' $_POST[Days Not Available]' $_POST[Phone]')
